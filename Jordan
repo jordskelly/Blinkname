@@ -1,0 +1,91 @@
+int led = D7;
+void setup() {
+
+pinMode(led,OUTPUT);
+
+}
+
+void loop() {
+///J .---
+digitalWrite(led, HIGH);
+delay(100);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+//O ---
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+//R .-.
+digitalWrite(led,HIGH);
+delay(100);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(100);
+digitalWrite(led,LOW);
+delay(100);
+//D -..
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(100);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(100);
+digitalWrite(led,LOW);
+delay(100);
+//A .-
+digitalWrite(led,HIGH);
+delay(100);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+//N -.
+digitalWrite(led,HIGH);
+delay(1000);
+digitalWrite(led,LOW);
+delay(100);
+digitalWrite(led,HIGH);
+delay(100);
+digitalWrite(led,LOW);
+delay(3000);
+
+
+
+
+
+
+
+
+}
